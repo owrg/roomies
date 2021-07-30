@@ -95,7 +95,7 @@ const LocalRoom: NextPage<{ roomID: string }> = ({ roomID }) => {
 
   return (
     <div className="wrapper">
-      <p>Room ID: {roomID}</p>
+      <p>Ollie is Cool - Room ID: {roomID}</p>
       <p>Use the arrow keys to move</p>
       <div>
         <Link href="/" passHref>
